@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <script type="text/javascript">
+            if (location.protocol !== 'https:') {
+              location.href = 'https://' + window.location.hostname + window.location.pathname + window.location.hash;
+            }
+          </script>
     </head>
     <body>
         Hello World!
