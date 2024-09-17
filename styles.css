@@ -16,3 +16,13 @@ section {
     overflow-y: scroll;
     height: 100vh;
 }
+
+a:link{
+    color: white;
+}
+a:hover{
+    color: gray;
+}
+a:visited{
+    color: gray;
+}
